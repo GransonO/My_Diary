@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Diary</title>
+        <link href="../css/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <h1>My Settings</h1>
+        </header>
+        <div class="home_contents">
+            <div class="navigation_panel">
+            <!--The logged in user details displayed here -->
+            <p>Profile Image</p>
+                <img class="circular_image" src="../images/book.jpg" alt="Profile Image" width="140" height="140">                
+                <input type="file" value="upload Image" class="rounded_btn">
+
+            </div>
+
+            <div class="settings">
+                <!--List of all Diary entries-->
+                <div class="articles">
+                        <h3> <u>Registration Details</u> </h3>
+                        <p>Registered Date : 12/07/2018</p>
+
+                        <label for="username">Change Username</label>
+                        <input type="text" name="" value="GransonO">
+
+                        <label for="email">Change Email</label>
+                        <input type="email" name="" value="Oyombegranson@gmail.com">
+
+                        <p>Total Entries : 50</p>
+
+                        <h3> <u>Notification Preferences</u> </h3>
+                        <p> <input type="checkbox"> Get Notified on time to add an entry to your diary? </p>
+
+                        <label for="Notice">Notification Time</label>
+                        <br>
+                        <input type="time" name="notice_time" id="notice_time" placeholder="Enter time to be notified.">
+                       
+                       <div class="actions" style="text-align: right;">
+                        <p>
+                         <button class="rounded_btn" style="float: left;"> <a href="#"> Save </a></button>
+                         <button class="logout_btn" style="float: right;"> Cancel </button>
+                     </p> 
+                </div>
+                
+            </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
