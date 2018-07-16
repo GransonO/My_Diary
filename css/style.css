@@ -180,11 +180,13 @@ hr{
     margin-bottom: 10px;
     text-align: left;
 }
+
 /*Push article dates to the far right*/
 .date{
     text-align: right;
 }
 
+/*Actions buttons for each article*/
 .actions{
     width: 215px;
     padding: 5px;
