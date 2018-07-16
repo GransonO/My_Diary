@@ -28,7 +28,7 @@ header{
     margin-top: 40px;
     color: #fff;
 }
-
+/*Put it on paper*/
 .i_say{
     font-size: 0.8em;
     color: rgb(44, 44, 44);
@@ -72,6 +72,7 @@ a{
     color: rgb(187, 112, 0);
 }
 
+/*Styling for the bottom mystical quotes*/
 .quotes{
     text-align: center;
     font-size: 1.2em;
@@ -81,4 +82,114 @@ a{
 footer{
     font-size: 0.8em;
     text-align: center;
+    clear: both;
+}
+/*Creates a circular image*/
+.circular_image {
+    border-radius: 50%;
+    float: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/*Part of the body pushed to the left*/
+.navigation_panel{
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    float: left;
+    padding: 5px;
+}
+
+/*Contains the bodies elements*/
+.home_contents{
+    width: 1200px;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Buttons design*/
+.rounded_btn {
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgba(204, 204, 204, 0.014);
+    border: 1px solid rgb(255, 255, 255, o.5);
+    padding: 5px; 
+    color: #ccc;
+    font-style: oblique;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+/*Buttons when hovered on*/
+.rounded_btn:hover {
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgba(204, 204, 204, 0.014);
+    border: 2px solid rgb(255, 208, 0);
+    padding: 5px; 
+    color: #ccc;
+    font-style: oblique;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+/*Horizontal line separator*/
+hr{
+    width: 150;
+}
+/*Logout Button before hover...Clear with silver border*/
+.logout_btn {
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgba(204, 204, 204, 0.014);
+    border: 1px solid rgb(255, 255, 255, o.5);
+    padding: 5px; 
+    color: #ccc;
+    font-style: oblique;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+/*Red on hover*/
+.logout_btn:hover {
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgba(204, 204, 204, 0.014);
+    border: 2px solid rgb(253, 4, 4, 0.966);
+    padding: 5px; 
+    color: #fff;
+    font-style: oblique;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+/*Container holding all entries*/
+.stories{
+    width: 970px;
+    height: 600px;
+    border-radius: 10px;
+    float: right;
+    overflow-y: auto;
+}
+/*Each entry design*/
+.articles{
+    width: 950px;
+    padding: 5px 10px 5px 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    float: left;
+    margin-bottom: 10px;
+    text-align: left;
+}
+/*Push article dates to the far right*/
+.date{
+    text-align: right;
+}
+
+.actions{
+    width: 215px;
+    padding: 5px;
+    border-radius: 10px;
+    float: right;
+    margin-bottom: 10px;
+    text-align: left;
 }
