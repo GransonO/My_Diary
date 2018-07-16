@@ -1,0 +1,79 @@
+body, html{
+    background-image: url(../images/girl.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+    height: 100%;
+    font-style: oblique;
+    color: #fff;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+/*Body wrapper for all elements*/
+.content_body{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Provides the upper margin for all files*/
+header{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    /*Used em to be dynamic with view*/
+    font-size: 1.5em;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.i_say{
+    font-size: 0.8em;
+    color: rgb(44, 44, 44);
+    font-style: italic;
+    text-align: center;
+}
+
+/*Markers for all inputs*/
+label{
+    font-size: 18px;
+    float: left;
+    color: #fff;
+}
+
+/*Design for input types*/
+input[type=text],input[type=password], input[type=email], select {
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/*Design for input type submit button*/
+input[type=submit] {
+    width: 18em;
+    background-color: rgb(187, 112, 0);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+/*Colour styling fir the href links*/
+a{
+    color: rgb(187, 112, 0);
+}
+
+.quotes{
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 120px;
+}
