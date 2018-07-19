@@ -1,7 +1,6 @@
 """Flask web server"""
 from flask import Flask
 from flask import jsonify
-import requests
 
 APP = Flask(__name__)
 
@@ -16,11 +15,5 @@ def home_page():
 def get_data():
     """Call to get all entries"""
     return jsonify(ENTRIES)
-
-def test_response():   
-    """test to get all entries"""
-    response = requests.get("http://127.0.0.1:5000/api/v1")
-    assert response.status_code,200
-
 if __name__ == '__main__':
     APP.run(debug=True)
