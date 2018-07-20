@@ -7,8 +7,4 @@ install:
 - pip install -r requirements.txt
 - "pip install coveralls"
 
-branches:
-  only:
-    - develop
-
 script: python try.py
