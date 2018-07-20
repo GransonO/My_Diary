@@ -7,7 +7,7 @@ install:
 - pip install -r requirements.txt
 - pip install coveralls
 
-script: python try.py
+script: python backend/app.py
 
 # whitelist
 branches:
