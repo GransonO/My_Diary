@@ -20,6 +20,12 @@ def get_all_entries():
     """Fetch all entries"""
     return jsonify(ENTRIES)
 
+@APP.route('/api/v1/entries/<int:count>', methods=['GET'])
+def get_specific_data(count):
+    """Call to get a specific entry"""
+    result = [entry for entry in ENTRIES if entry['id'] == count]
+    return jsonify(result[0])
+
 @APP.route('/api/v1/entries/<int:count>', methods=['PUT'])
 def put_update_data(count):
     """call to edit an entry"""
