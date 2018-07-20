@@ -1,3 +1,4 @@
+<a href='https://coveralls.io/github/GransonO/My_Diary?branch=master'><img src='https://coveralls.io/repos/github/GransonO/My_Diary/badge.svg?branch=master' alt='Coverage Status' /></a>
 # My_Diary
 A web application with a diary functionality.
 Aimed for better understanding the wed dev-basics( HTML, CSS $ JAVASCRIPT) and utilizing the python Flask framework. 
