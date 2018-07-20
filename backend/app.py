@@ -21,5 +21,15 @@ def get_specific_data(count):
     result[0]['message'] = request.json['message']
     return jsonify(ENTRIES)
 
+@APP.route('/api/v1/entries', methods=['POST'])
+def post_data():
+    """call to add an entry"""
+    new_title = request.json['title']
+    new_date = request.json['date']
+    new_message = request.json['message']
+    new_dict = {'id':len(ENTRIES) + 1, 'title':new_title, 'date':new_date, 'message':new_message}
+    ENTRIES.append(new_dict)
+    return jsonify(ENTRIES)
+    
 if __name__ == '__main__':
     APP.run(debug=True)
