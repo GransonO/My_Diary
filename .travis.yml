@@ -6,3 +6,9 @@ python:
 install:
 - "pip install -r requirements.txt"
 - "pip install coveralls"
+
+# command to install dependencies
+script: python backend/app.py
+branches:
+  only:
+    - develop
