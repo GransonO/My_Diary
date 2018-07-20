@@ -8,3 +8,4 @@ install:
 # command to run tests
 script:
   - pylint backend/test_app.py # or py.test for Python versions 3.6 and below
+  - pylint backend/app.py      # Linting for the app module
