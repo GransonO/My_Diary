@@ -7,4 +7,4 @@ install:
   - pip install -r requirements.txt
 # command to run tests
 script:
-  - pytest backend/test_app.py # or py.test for Python versions 3.6 and below
+  - pylint backend/test_app.py # or py.test for Python versions 3.6 and below
