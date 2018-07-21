@@ -11,10 +11,10 @@ install:
 script:
 #  - pylint backend/test_app.py # or py.test for Python versions 3.6 and below
   - coverage erase
-  - coverage run backend/text_app.py && coverage html
+  - coverage run backend/test_app.py && coverage html
   - pylint --output-format=text backend/app.py
   - pylint --output-format=text backend/test_app.py
-  - pytest backend/test_app.py && coverage report
+  - pytest && coverage report
 after_success:
   - codecov
   - coveralls
