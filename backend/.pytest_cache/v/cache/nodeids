@@ -1,0 +1,6 @@
+[
+  "test_app.py::test_put_update_data",
+  "test_app.py::test_post_data",
+  "test_app.py::test_get_all_entries",
+  "test_app.py::test_get_specific_data"
+]
