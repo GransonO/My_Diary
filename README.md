@@ -1,5 +1,10 @@
 [![Build Status](https://travis-ci.org/GransonO/My_Diary.svg?branch=develop)](https://travis-ci.org/GransonO/My_Diary)
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/641fd6175f184e959490/maintainability)](https://codeclimate.com/github/GransonO/My_Diary/maintainability)
+
+[![Test Coverage](https://api.codeclimate.com/v1/badges/641fd6175f184e959490/test_coverage)](https://codeclimate.com/github/GransonO/My_Diary/test_coverage)
+
+
 # My_Diary
 A web application with a diary functionality.
 Aimed for better understanding the wed dev-basics( HTML, CSS $ JAVASCRIPT) and utilizing the python Flask framework. 

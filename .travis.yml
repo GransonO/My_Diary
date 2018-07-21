@@ -7,11 +7,22 @@ install:
   - pip install -r requirements.txt
   - pip install coveralls
   - pip install codecov
-  
+# Configuration to code climate
+before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter 
+
+# for codecoverage on codeclimate.com
+env:
+  global:
+    - GIT_COMMITTED_AT=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then git log -1 --pretty=format:%ct; else git log -1 --skip 1 --pretty=format:%ct; fi)
+#    - CODECLIMATE_REPO_TOKEN=[token]
+    - CC_TEST_REPORTER_ID=[b21d64734fb0d9b1bdcce59e0b1a83b4062d7c6188b2e4f2d895086fc1f781fd]
+
 script:
 #  - pylint backend/test_app.py # or py.test for Python versions 3.6 and below
   - coverage erase
-  - coverage run backend/test_app.py && coverage html
+  - coverage run backend/app.py && coverage html
   - pylint --output-format=text backend/app.py
   - pylint --output-format=text backend/test_app.py
   - pytest && coverage report
