@@ -25,7 +25,7 @@ script:
   - coverage run backend/test_app.py && coverage html
   - pylint --output-format=text backend/app.py
   - pylint --output-format=text backend/test_app.py
-  - pytest --cov=backend/test_app.py && coverage report
+  
 after_success:
   - codecov
   - coveralls
