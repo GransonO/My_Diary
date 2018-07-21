@@ -10,7 +10,6 @@ install:
 # command to run tests
 script:
 #  - pylint backend/test_app.py # or py.test for Python versions 3.6 and below
-  - python backend/app.py
   - coverage erase
   - coverage run backend/text_app.py && coverage html
   - pylint --output-format=text backend/app.py
