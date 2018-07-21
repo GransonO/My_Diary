@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/GransonO/My_Diary.svg?branch=ft-update_an_entry-2184901)](https://travis-ci.org/GransonO/My_Diary)
 # My_Diary
 A web application with a diary functionality.
 Aimed for better understanding the wed dev-basics( HTML, CSS $ JAVASCRIPT) and utilizing the python Flask framework. 
