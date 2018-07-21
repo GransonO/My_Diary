@@ -1,3 +1,7 @@
 [
-  "backend/test_app.py::test_updating_entries"
+  "backend/test_app.py::test_put_update_data",
+  "backend/test_app.py::test_post_data",
+  "backend/test_app.py::test_get_all_entries",
+  "backend/test_app.py::test_get_specific_data",
+  "backend/test_app.py::test_client"
 ]
