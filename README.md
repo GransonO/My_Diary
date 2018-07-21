@@ -1,4 +1,4 @@
-<a href='https://coveralls.io/github/GransonO/My_Diary?branch=master'><img src='https://coveralls.io/repos/github/GransonO/My_Diary/badge.svg?branch=master' alt='Coverage Status' /></a>
+[![Build Status](https://travis-ci.org/GransonO/My_Diary.svg?branch=develop)](https://travis-ci.org/GransonO/My_Diary)
 
 # My_Diary
 A web application with a diary functionality.
