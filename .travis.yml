@@ -18,7 +18,7 @@ before_script:
 env:
   global:
     - GIT_COMMITTED_AT=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then git log -1 --pretty=format:%ct; else git log -1 --skip 1 --pretty=format:%ct; fi)
-#    - CODECLIMATE_REPO_TOKEN=[token]
+#   - CODECLIMATE_REPO_TOKEN=[token]
     - CC_TEST_REPORTER_ID=[b21d64734fb0d9b1bdcce59e0b1a83b4062d7c6188b2e4f2d895086fc1f781fd]
 
 script:
