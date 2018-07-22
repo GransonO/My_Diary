@@ -29,6 +29,7 @@ Pygments==2.2.0
 pylint==2.0.0
 pyparsing==2.2.0
 pytest==3.6.3
+pytest-cov==2.5.1
 pytest-flask==0.10.0
 pytz==2018.5
 requests==2.19.1
