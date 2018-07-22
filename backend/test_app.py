@@ -22,7 +22,3 @@ def test_get_specific_data(client):
     """test to get specific entries"""
     response = client.get("http://127.0.0.1:5000/api/v1/entries/1")
     assert response.status_code == 200
-
-def test_client(client):
-    """Test return status code"""
-    assert client.get("http://127.0.0.1:5000/api/v1/entries/1").status == '200 OK'
