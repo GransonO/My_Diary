@@ -60,4 +60,5 @@ def post_data():
     return jsonify(ENTRIES)
 
 if __name__ == '__main__':
-    APP.run(port=5000)
+    from os import environ
+    APP.run(host='0.0.0.0',port=environ.get("PORT", 5000))
