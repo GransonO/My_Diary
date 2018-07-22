@@ -2,8 +2,6 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/641fd6175f184e959490/maintainability)](https://codeclimate.com/github/GransonO/My_Diary/maintainability)
 
-[![Test Coverage](https://api.codeclimate.com/v1/badges/641fd6175f184e959490/test_coverage)](https://codeclimate.com/github/GransonO/My_Diary/test_coverage)
-
 [![Coverage Status](https://coveralls.io/repos/github/GransonO/My_Diary/badge.svg?branch=develop)](https://coveralls.io/github/GransonO/My_Diary?branch=develop)
 
 # My_Diary

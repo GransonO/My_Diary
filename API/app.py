@@ -62,3 +62,4 @@ def post_data():
 if __name__ == '__main__':
     from os import environ
     APP.run(host='0.0.0.0',port=environ.get("PORT", 5000))
+    #APP.run(host='127.0.0.1',port=environ.get("PORT", 5000),debug=True)

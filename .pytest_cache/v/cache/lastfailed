@@ -1,6 +1,4 @@
 {
-  "backend/test_app.py::test_get_entries_1": true,
-  "backend/test_app.py::test_get_entries_2": true,
-  "backend/test_app.py::test_get_entries_4": true,
-  "backend/test_app.py::test_return": true
+  "API/test_app.py::test_app_debug_state": true,
+  "API/test_app.py::test_entry_not_exist": true
 }

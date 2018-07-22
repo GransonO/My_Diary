@@ -1,13 +1,13 @@
 language: python
 
 python:
+  - "3.5"
   - "3.6"
 # command to install dependencies
 install:
   - pip install -r requirements.txt
-  - pip install coveralls
-  - pip install coverage
   - pip install codecov
+  - pip install pytest-cov
 # Configuration to code climate
 before_script:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
@@ -24,9 +24,11 @@ env:
 script:
 #  - pylint backend/test_app.py # or py.test for Python versions 3.6 and below
   - coverage erase
-  - coverage run backend/test_app.py && coverage html
-  - pylint --output-format=text backend/app.py
-  - pylint --output-format=text backend/test_app.py
+  - coverage run API/tests/test_app.py && coverage html
+  - py.test --cov API/tests/
+  - pylint --output-format=text API/app.py
+  - pylint --output-format=text API/tests/test_app.py
+  - pylint --output-format=text API/conftest.py
 
 after_script:
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT

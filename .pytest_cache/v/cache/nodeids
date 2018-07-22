@@ -1,7 +1,11 @@
 [
-  "backend/test_app.py::test_put_update_data",
-  "backend/test_app.py::test_post_data",
-  "backend/test_app.py::test_get_all_entries",
-  "backend/test_app.py::test_get_specific_data",
-  "backend/test_app.py::test_client"
+  "API/tests/test_app.py::test_incomplete",
+  "API/tests/test_app.py::test_put_update_data",
+  "API/tests/test_app.py::test_post_data",
+  "API/tests/test_app.py::test_get_all_entries",
+  "API/tests/test_app.py::test_get_specific_data",
+  "API/tests/test_app.py::test_get_return_title",
+  "API/tests/test_app.py::test_get_return_date",
+  "API/tests/test_app.py::test_for_api_mimetypes",
+  "API/tests/test_app.py::test_app_debug_state"
 ]
