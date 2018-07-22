@@ -2,8 +2,7 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/641fd6175f184e959490/maintainability)](https://codeclimate.com/github/GransonO/My_Diary/maintainability)
 
-.. image:: https://coveralls.io/repos/github/GransonO/My_Diary/badge.svg?branch=develop
-:target: https://coveralls.io/github/GransonO/My_Diary?branch=develop
+<a href='https://coveralls.io/github/GransonO/My_Diary?branch=develop'><img src='https://coveralls.io/repos/github/GransonO/My_Diary/badge.svg?branch=develop' alt='Coverage Status' /></a>
 
 # My_Diary
 A web application with a diary functionality.
